@@ -28,3 +28,18 @@ Big Data is a loosely defined term used to describe data sets so large and compl
 ### 4. [The Google File System](http://static.googleusercontent.com/media/research.google.com/en/us/archive/gfs-sosp2003.pdf)  
 
 ### 5. [Google's Processing Framework - _MapReduce_](http://static.googleusercontent.com/media/research.google.com/en/us/archive/mapreduce-osdi04.pdf)  
+
+### 6. HDFS 
+- Hadoop Distributed File System to store data. Usually a cluster of machines. 
+- MapReduce to Process Data. 
+
+### 7. Hadoop Ecosystem
+- e.g. _Hive_ (write SQL-ish statments for long batch processing), _PIG_ (simple scripting language): both of them translated into __MapReduce__ to access __HDFS__. 
+- e.g. _Imapala_ (SQL-ish statements) directly interacts with __HDFS__ with low latency.
+- e.g. _Sqoop_, _Flume_: take traditional relational databases into __HDFS__.
+- e.g. HBase: real-time database which is built on __HDFS__. 
+- e.g. _Hue_: GUI for the __HDFS__ cluster. 
+- e.g. _Oozie_: workflow management tool. 
+- e.g. _Mahout_: a ML library. 
+- __CDH__: a complete system for all of the above. 
+
